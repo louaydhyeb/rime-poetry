@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface PoetryApi {
 
-    @GET("/v1/randompoems")
+    @GET("v1/randompoems")
     suspend fun getRandomPoems(): List<PoemDto>
 }
